@@ -1,6 +1,6 @@
 import React from "react";
 import { useQuery } from "react-query";
-import Movie from "./Card";
+import Movie from "./MovieCard";
 import { getMovies } from "../API";
 
 const Movies = () => {
